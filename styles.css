@@ -1,0 +1,17 @@
+/* styles.css */
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Par exemple, une grille 3x3 */
+    gap: 5px;
+}
+
+.piece {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
